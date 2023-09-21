@@ -1,0 +1,38 @@
+--- Grouping and Outlining Data
+# We group and outline data to make the unstructured data into structured 
+# Group is grouping/organizing the data either region wise, gender wise or any column value wise
+#Outlining allows us to create groups within groups
+
+-- Rules for Applying Groups & Outlines
+#There must be a common grouping criteria
+#The data must be sorted by the grouped item
+#You are going to have to insert some blank rows to act as a seperator between the groups
+
+-- To use outline in excel
+#(Select the rows that you want to group) ->Data -> Outline -> Group
+# you can also use "Subtotal" to find sum/count/avg og each group
+
+-- Quick Analysis Tool
+#A small popup at the bottom right appears when u select a range of values in a column
+#Click that popup to do quick analysis
+
+--Sparkline
+Sparkline is a mini chart placed in a single excel that provides a visual representation of a data in a series of column.
+We can use sparklines to show trends
+
+ways to insert sparklines
+-user quick analysis tool
+-use "INSERT" tab -> sparkline section
+
+Types:
+Line Graph : It is great for drawing trends over time or when there is a logical progression of data.
+
+Column Graph(Bar chart) : It is better suited when the data values relate to discrete groups. For example : By departement, team .
+
+Win Loss Chart : Simply displays whether the item is positive or negative.
+
+You can edit sparklines - Line graph by selecting "HIGH POINT" , "LOW POINT" or "ALL POINTS"
+
+NOTE : For individually formating the sparkline, select the sparkline which u want to format seperately and click "ungroup" in sparkline tab
+
+

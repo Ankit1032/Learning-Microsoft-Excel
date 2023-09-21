@@ -1,0 +1,88 @@
+=====DATA VALIDATION
+#Data Validation in Excel lets you control the data that can be entered in a cell
+#Three ways validation is used:
+1. Restrict data to certain numbers/text/data
+2. Inform user whenever the out-of-range data is entered
+3. Guide user on what data to entered
+
+Note: Data validation is destroyed if a user copies data from a cell without validation to a cell with data validation, the validation is destroyed/replaced
+
+=====What-If Analysis
+#What-If Analysis is an Excel tool that lets you explore results of different scenarios by using several sets of values in one or more formulas
+
+#Types of What-If Analysis Tools
+1. Scenario Manager
+2. Data Table
+3. Goal Seek
+
+#In Scenario Manager and Data Table, you change the input variables and see what impact it has on the output. These can help answer questions like what would happen to our profits if the number of units we sell doubles.
+
+#As for Goal Seek, suppose you have a particular outcome you would like to achieve. Using Goal Seek you can ask Excel to calculate what change the input would be required to achieve the outcome. This can answer questions like how many units of products need to be sold in order to reach a desired profit level.
+
+
+[Done in Excel] - Scenario Manager also lets you see all the cases, you can do that by clicking on "SUMMARY"
+
+#Data Tables are used when one or two of the inputs used in your formula or model is changing, and you want to know the change in the output with respect to that
+
+=====Text to Columns
+
+1. Seperate text data from a single column to seperate columns
+2. Works with twi types of text data
+3. Delimited and fixed width
+
+
+===== Flash Fill
+#It is a tool that identifies pattern based on your data entry
+#We can use it to extract and combine data
+
+===== Searching Data in Excel
+1. Searching specifix text or number (ctrl + f)
+2. Searching cell that contain formulas
+3. Search in a worksheet or whole workbook
+	a. After pressing ctrl+f, you would see an option button which would let you choose if u want to search in whole workbook, or if you want to find formulas or texts.
+	b. Within : Sheet | Search : By Rows | Look in : Formulas
+	c. To find case-sensitive data, tick the "Match Case" option
+
+4. To highlight all the formulas in the sheet,
+	a. Go on "Home" -> Click "Find and select" -> click "Formulas"
+	b. To see the actual formulas , press ctrl + ~
+	
+===== Named Range
+-> We already know this - you can give human readable names to a cell or range of cells
+
+===== Hyperlink linking
+Types:
+1. Link to a webpage 
+	-> Click on the cell that needs to be linked
+	-> go to "Insert" Tab -> click on "Link" 
+	-> Select "Existing file or web page"
+	-> put the address-link on the address field
+2. Link to a cell in the same worksheet
+	-> Click on the cell that needs to be linked
+	-> go to "Insert" Tab -> click on "Link" 
+	-> Select "Place in this document"
+	-> put the cell on the cell reference field
+3. Link to an e-mail address
+	-> Click on the cell that needs to be linked
+	-> go to "Insert" Tab -> click on "Link" 
+	-> Select "Email Address"
+	-> put the mailid on the email address field
+4. Link to a different workbook
+	-> Click on the cell that needs to be linked
+	-> go to "Insert" Tab -> click on "Link" 
+	-> Select "Existing file or web page"
+	-> Use the "Current folder" and select another workbook
+	
+===== Proper function
+#It is used to make the first letter of every word to be capital
+=proper('jEnNy') --> Jenny
+
+==== To sort multiple rows at once
+#Go to "Home" tab -> select "Sort & Filter" -> select "Custom Sort"
+#We will sort based on Country(ASC), then Points(DESC) and then LastName(ASC) so..
+#Add value "Country" -> click on "Add level" -> Add value Points(make it "Largest to Smallest) and so on..
+
+==== Filtering
+#To see only those rows whose points are above 70
+#Add "Filters" -> click "Number Filters" -> click "Greater Than" and write the value
+

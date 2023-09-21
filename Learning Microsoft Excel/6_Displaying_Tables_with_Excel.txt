@@ -1,0 +1,18 @@
+--Displaying Tables with Excel
+
+To know if a matrix is a "Table" identified by excel, click on that matrix and see if a "Table Design" tab shows at top right.
+if not, then select the whole matrix -> go to Insert tab -> click on table or.. shortcut -> ctrl + t
+to rename the name go to table design-> edit the table name at top left corner
+
+--- Use table name to perform quick calculations
+if table name is fruit and it has a column "Quantity" of which we need sum
+#=SUM(fruits[Quantity]) would give correct result
+
+-- to check list of created named ranges
+format tab -> name manager
+
+--use custom sort in table to sort multiple columns 
+	sort and filter -> custom sort
+	
+-- Waterfall chart
+This chart is basically used to display the running total of a value across multiple categories

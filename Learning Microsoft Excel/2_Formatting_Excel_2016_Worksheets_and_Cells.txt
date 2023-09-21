@@ -1,0 +1,11 @@
+=== Formatting Excel 2016 Worksheets and Cells
+
+-- autofit column/row width and height under format button
+
+-- "Page break preview" in View tab shows till how much data is present in current excel work sheet
+
+-- to compare two worksheets together in the same view
+	1. go to view -> click "new window" -> click "view side by side icon"
+	2. Scolling one worksheet would result in scrolling another worksheet simultaneously, to disable this click "syncchronous scolling" until it gets disabled.
+
+--- "Split" under view tag is used to split a worksheet in 2. Suppose you can to keep certain rows on top while scrolling to check some values. Select the row until when u want to split and click "split"

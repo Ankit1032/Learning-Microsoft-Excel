@@ -1,0 +1,30 @@
+---Macros
+Macros are instructions of code that automate work in a program
+Record actions to save as repeatable steps
+VBA(Visual Basic for applications) - programming language
+	1. Used with MS Office applications
+	2. Code for instructions to automate tedious , time consuming tasks in excel
+	
+--to make a macro
+	1. VIEW tab -> Macors -> Record Macro -> perform actions -> stop recording
+
+--to use the macro
+	2. VIEW tab -> Macors -> View -> select the mecro and click RUN
+	
+--to open vba
+	1. open a macro and click "EDIT"
+	
+--- Activate Developer Tab
+File -> Options -> Customize Ribbon -> click Developer box
+or...
+right click on the black area in tabs area -> clikc Customize ribbon
+
+-- Developer sections
+Add-ins : Developer tab contains lots of Add-ins which you can download from office like Gantt Chart, Colorizers, Data Visualization
+
+Controls : These controls help u work with form controls. Excel forms turn your spreadsheet into interactive form
+
+XML : Many Applications read and produce data in the Extensible Mark-up language
+
+--To insert VBA code for a new macro
+open the VBA screen -> right click on the VBA(workbook_name) -> paste the VBA code

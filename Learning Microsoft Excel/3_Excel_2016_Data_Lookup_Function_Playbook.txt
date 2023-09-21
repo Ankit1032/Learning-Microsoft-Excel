@@ -1,0 +1,35 @@
+-----Excel 2016 Data Lookup Function Playbook
+1. MATCH
+#MATCH is an Excel function that searches for a value in an array and returns the position of that value within the array.
+
+#=MATCH(lookup_value, lookup_array, [match_type])
+
+lookup_value: The value you want to search for.
+
+lookup_array: The range of cells that you want to search within.
+
+match_type: Optional. Specifies how the function should match the lookup_value with the values in the lookup_array. The available options are 1, 0, or -1.
+
+1 or omitted: Finds the largest value that is less than or equal to lookup_value. This is also known as "approximate match" or "sorted order".
+0: Finds the first value that is exactly equal to lookup_value. This is also known as "exact match".
+-1: Finds the smallest value that is greater than or equal to lookup_value. This is also known as "approximate match" or "reverse sorted order".
+
+2. INDEX
+INDEX is an Excel function that returns the value of a cell within a specified range based on the row and column number.
+
+=INDEX(array, row_num, [column_num])
+
+3. Difference between Vlookup and Hlookup
+VLOOKUP searches for a value in the leftmost column of a table and returns a value in the same row from a column you specify. It is commonly used to look up information in a table, such as a product code or customer name, and return related information, such as a product description or customer address.
+
+HLOOKUP, on the other hand, searches for a value in the first row of a table and returns a value in the same column from a row you specify. It is less commonly used than VLOOKUP, but can be helpful when you need to look up values based on column headings.
+
+=VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+
+=HLOOKUP(lookup_value, table_array, row_index_num, [range_lookup])
+
+
+
+
+
+
